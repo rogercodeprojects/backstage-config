@@ -1,10 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jdoe
+  name: pokoyo
 spec:
   profile:
-    displayName: Jenny Doe
-    email: jenny-doe@example.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [team-b, employees]
+    # Intentional no displayName for testing
+    email: pokoyo@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
