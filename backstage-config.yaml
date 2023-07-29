@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./users.yaml
+    - ./template.yaml
