@@ -5,4 +5,4 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/rogercodeprojects/backstage-config/blob/main/users.yaml
+    - ./users.yaml
