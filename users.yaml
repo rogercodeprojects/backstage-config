@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Roger_Ortega
+  name: roger.ortega
 spec:
   profile:
     # Intentional no displayName for testing
