@@ -8,3 +8,8 @@ spec:
     - ./template.yaml
     - ./users.yaml
     - ./api.yaml
+    - ./domain.yaml
+    - ./groups.yaml
+    - ./system.yaml
+    - ./resources.yaml
+    
