@@ -3,6 +3,6 @@ kind: Location
 metadata:
   name: backstage-config
 spec:
-  type: file
+  type: url
   targets:
-    - users.yaml
+    - https://github.com/rogercodeprojects/backstage-config/blob/main/users.yaml
