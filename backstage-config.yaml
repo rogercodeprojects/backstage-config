@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: backstage-config
+  name: backstage-all
+  description: A collection of all Backstage example entities, except users, groups, and templates
 spec:
-  type: url
   targets:
     - ./users.yaml
