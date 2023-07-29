@@ -4,6 +4,7 @@ metadata:
   name: backstage-all
   description: A collection of all Backstage example entities, except users, groups, and templates
 spec:
+  type: url
   targets:
-    - ./users.yaml
-    - ./template.yaml
+    - https://github.com/rogercodeprojects/backstage-config/blob/main/template.yaml
+    - https://github.com/rogercodeprojects/backstage-config/blob/main/users.yaml
