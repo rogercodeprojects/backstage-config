@@ -5,4 +5,4 @@ metadata:
 spec:
   type: file
   targets:
-    - ./users.yaml
+    - users.yaml
