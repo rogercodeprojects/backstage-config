@@ -16,9 +16,9 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: aplicacion-educación-niños
-  description: Es una aplicacion hecaha para que los niños con dificultades puedan aprender
-  title: aplicacion-educación-niños
+  name: aplicacion-educación-ninos
+  description: Es una aplicacion hecaha para que los ninos con dificultades puedan aprender
+  title: aplicacion-educación-ninos
   links:
     - url: http://example.com/domain/artists/
       title: Domain Readme
