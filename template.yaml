@@ -43,7 +43,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: https://github.com/rogercodeprojects/nestjs-template
+        url: https://github.com/rogercodeprojects/nestjs-typescript
         values:
           name: ${{ parameters.name }}
 
