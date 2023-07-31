@@ -3,6 +3,8 @@ kind: System
 metadata:
   name: artist-engagement-portal
   description: Everything related to artists
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs/mkdocs.yml
   tags:
     - portal
 spec:
