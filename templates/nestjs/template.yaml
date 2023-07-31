@@ -2,9 +2,9 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: test
-  title: test
-  description: An example template for the scaffolder that creates a simple Node.js service
+  name: nestjs
+  title: nestjs
+  description: An example template for the scaffolder that creates a simple nestjs service
 spec:
   owner: user:guest
   type: service
@@ -43,7 +43,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: https://github.com/rogercodeprojects/nestjs-typescript
+        url: ./skeleton
         values:
           name: ${{ parameters.name }}
 

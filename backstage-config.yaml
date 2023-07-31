@@ -5,11 +5,11 @@ metadata:
   description: A collection of all Backstage example entities, except users, groups, and templates
 spec:
   targets:
-    - ./template.yaml
-    - ./users.yaml
-    - ./api.yaml
-    - ./domain.yaml
-    - ./groups.yaml
-    - ./system.yaml
-    - ./resources.yaml
+    - ./templates/all-templates.yaml
+    - ./users/users.yaml
+    - ./apis/api.yaml
+    - ./domains/domain.yaml
+    - ./groups/groups.yaml
+    - ./systems/system.yaml
+    - ./resources/resources.yaml
     

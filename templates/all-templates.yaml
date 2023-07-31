@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-templates
+  description: A collection of all Templates
+spec:
+  targets:
+    - ./nestjs/template.yaml
