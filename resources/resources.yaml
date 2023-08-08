@@ -1,9 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: artists-db
-  description: Stores artist details
+  name: firebase-storage
+  description: Storage for files
 spec:
   type: database
-  owner: team-a
-  system: artist-engagement-portal
+  owner: developer
+  system: writmi
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: firebase-real-time-database
+  description: Storage no sql data 
+spec:
+  type: database
+  owner: developer
+  system: writmi

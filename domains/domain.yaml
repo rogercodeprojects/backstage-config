@@ -16,14 +16,14 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: aplicacion-educación-ninos
-  description: Es una aplicacion hecaha para que los ninos con dificultades puedan aprender
-  title: aplicacion-educación-ninos
-  links:
-    - url: http://example.com/domain/artists/
-      title: Domain Readme
-    - url: http://example.com/domains/artists/dashboard
-      title: Domain Metrics Dashboard
-      icon: dashboard
+  name: writmi
+  description: writmi juego multijugador
+  title: writmi juego multijugador
+  # links:
+  #   - url: http://example.com/domain/artists/
+  #     title: Domain Readme
+  #   - url: http://example.com/domains/artists/dashboard
+  #     title: Domain Metrics Dashboard
+  #     icon: dashboard
 spec:
   owner: developer

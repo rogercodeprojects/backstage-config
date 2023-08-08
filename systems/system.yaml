@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: artist-engagement-portal
-  description: Everything related to artists
+  name: writmi
+  description: Writmi environment
   annotations:
     backstage.io/techdocs-ref: dir:.
   tags:
-    - portal
+    - writmi
 spec:
-  owner: team-a
+  owner: developer
   domain: artists
